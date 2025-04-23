@@ -3,6 +3,136 @@
 @tailwind utilities;
 
 
-.image{
+@media (min-width:320px) and (max-width:520px) {
 
+    .panipuri{
+        position: relative;
+        right: -20%;
+        top: -10%;
+    }
+  
+    .left-text{
+       position: relative;
+       bottom: 36%;
+    }
+    .image{
+        position: relative;
+        bottom: 16%;
+        
+    }
+   
+    .panipuri_mo{
+        position: relative;
+        bottom: 3%;
+        right: -120px;
+    }
+    .circle1{
+        position: absolute;
+        background-color: #E0B613;
+        top: 7px;
+        left: -4px;
+        
+        width: 32px;
+        height: 32px;
+    }
+    .circle3{
+        width: 12px;
+        height: 11px;
+  
+        bottom: 55px;
+        right: -10px;
+    }
+    .circle2{
+        width:18px;
+        height: 18px;
+        bottom: 38px;
+        right: 8px;
+    }
+    
+    .circle4{
+        width: 12px;
+        height: 11px;
+        bottom: 60px;
+        right: 20px;
+    }
+
+    .bigcircle-mo{
+        position: absolute;
+        top: 190px;
+        right: -100px;
+       
+        width: 420px;
+        height: 420px;
+    }
+
+   .yellow-container-mobile{
+    
+    top: 113%;
+    height: 550px;
+   }
+
+   .mob-green{
+    /* position: absolute; */
+    z-index: 70px
+   
+   }
+
+
+   .green_circle{
+    bottom: -80px;
+   }
+   .book-mobile{
+    position: relative;
+    margin-top: -60px;
+   }
+
+   .line-1{
+    width: 100px;
+    height: px;
+    top: 93%;
+    right: 2%;
+    
+   }
+
+   .line-2{
+    
+    top: -30px;
+    left: -15px;
+    
+    width: 150px;
+    height: 80px;
+   }
+
+   .cards-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    border-radius: 0.75rem;                /* rounded-xl */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* shadow-md */
+    margin-top: 5rem;                      /* mt-20 */
+    gap: 1.5rem;  
+    
+   }
+
+   .card-content-1{
+    position: absolute;
+    width: 165px;
+    height: 200px;
+    left: 24px;
+    top:49%
+   }
+   .card-content-2{
+    position: absolute;
+    width: 165px;
+    height: 200px;
+    left: 53%;
+    top: 49%;
+   }
+   .image-card{
+    position: relative;
+    bottom: 22%;
+   }
+   .card-text{
+    font-family:'Times New Roman', Times, serif;
+   }
+  
 }
